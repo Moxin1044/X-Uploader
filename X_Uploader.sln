@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "X_Uploader", "X_Uploader.csproj", "{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Debug|x64.ActiveCfg = Release|x64
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Debug|x64.Build.0 = Release|x64
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Release|x64.ActiveCfg = Release|x64
+		{ED95CF85-97EB-4F1C-9796-04EEAA6FC490}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31F5B741-406E-46D0-9795-6BC51D5D2F60}
+	EndGlobalSection
+EndGlobal
