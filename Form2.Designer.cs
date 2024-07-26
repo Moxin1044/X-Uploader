@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
@@ -45,6 +46,7 @@
             // 
             // textBox1
             // 
+            textBox1.Cursor = Cursors.IBeam;
             textBox1.Location = new Point(58, 12);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(263, 23);
@@ -52,6 +54,7 @@
             // 
             // button1
             // 
+            button1.Cursor = Cursors.Hand;
             button1.Location = new Point(327, 12);
             button1.Name = "button1";
             button1.Size = new Size(57, 23);
@@ -80,8 +83,14 @@
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "API设置";
+            TopMost = true;
             Load += Form2_Load;
             ResumeLayout(false);
             PerformLayout();

@@ -4,7 +4,7 @@ using X_Uploader; // 确保包含命名空间
 
 namespace X_Uploader
 {
-    
+
     public partial class Form1 : Form
     {
         private UploadService uploadService = new UploadService(); // 创建UploadService的实例
@@ -141,5 +141,6 @@ namespace X_Uploader
                 public string Permalink { get; set; }
             }
         }
+
     }
 }
